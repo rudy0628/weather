@@ -1,0 +1,16 @@
+/* STEP 1: import normalize.css
+  https://unpkg.com/browse/normalize.css@8.0.1/normalize.css 
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
