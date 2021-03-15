@@ -123,7 +123,6 @@ const WeatherCard = (props) => {
 
   const {
     observationTime,
-    locationName,
     temperature,
     windSpeed,
     description,

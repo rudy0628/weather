@@ -93,7 +93,6 @@ const locations = availableLocations.map((location) => location.cityName);
 
 const WeatherSetting = ({ setCurrentPage, cityName, setCurrentCity }) => {
   // STEP 2：將 cityName 當成預設值帶入 useState 中
-  const [locationName, setLocationName] = useState(cityName);
   // STEP 2：使用 useRef 建立一個 ref，取名為 inputLocationRef
   const inputLocationRef = useRef(null);
 
